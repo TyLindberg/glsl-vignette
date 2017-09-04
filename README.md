@@ -1,7 +1,8 @@
 # glsl-vignette
-A GLSL function for computing vignette value given UV coordinates.
+A GLSL function for computing vignette values from UV coordinates. Designed to work with [glslify](https://github.com/glslify/glslify).
 
 # Usage
+[![NPM](https://nodei.co/npm/glsl-vignette.png)](https://nodei.co/npm/glsl-vignette/)
 #### ```float vignette(vec2 uv, float radius, float smoothness)```
 Returns a value from 0 to 1 (black to white) corresponding to the intensity of the vignette at that UV coordinate.
 
@@ -9,7 +10,7 @@ Radius - the vignette's radius in UV coordinates. A radius of 0.5 results in a v
 
 Smoothness - how quickly the vignette fades in. The vignette will start fading in at `radius - smoothness` and be fully opaque at `radius + smoothness` from the center. A value of zero results in a hard edge.
 
-GLSL fragment shader example:
+#### GLSL fragment shader example:
 ```glsl
 #pragma glslify: vignette = require(glsl-vignette)
 
