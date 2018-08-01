@@ -1,5 +1,5 @@
 # glsl-vignette
-A GLSL function for computing vignette values from UV coordinates. Designed to work with [glslify](https://github.com/glslify/glslify).
+A GLSL function for computing vignette values from UV coordinates. Designed to work with [glslify](https://github.com/glslify/glslify). To test out how the different vignettes look, a demo can be found [here](https://tylindberg.github.io/glsl-vignette/).
 
 [![NPM](https://nodei.co/npm/glsl-vignette.png?mini)](https://nodei.co/npm/glsl-vignette/)
 
