@@ -15,10 +15,10 @@ float vignette(vec2 uv, vec2 size, float roundness, float smoothness) {
 	uv.y *= minWidth / size.y;
 
 	// Signed distance calculation
-	float boxSize = minWidth * (1.0 - roundedness);
-	float dist = sdSquare(uv, boxSize) - (minWidth * roundedness);
+	float boxSize = minWidth * (1.0 - roundness);
+	float dist = sdSquare(uv, boxSize) - (minWidth * roundness);
 
-	return smoothstep(0.0, smoothness, dist);
+	return 1.0 - smoothstep(0.0, smoothness, dist);
 }
 
 #pragma glslify: export(vignette)
