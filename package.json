@@ -2,7 +2,7 @@
   "name": "glsl-vignette",
   "version": "1.0.0",
   "description": "Vignette functions for glslify",
-  "main": "index.glsl",
+  "main": "simple.glsl",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

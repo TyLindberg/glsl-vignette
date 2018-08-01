@@ -5,7 +5,7 @@ A GLSL function for computing vignette values from UV coordinates. Designed to w
 
 # Usage
 
-### ```#pragma glslify: vignette = require(glsl-vignette)```
+### ```#pragma glslify: vignette = require(glsl-vignette/simple)```
 #### ```float vignette(vec2 uv, float radius, float smoothness)```
 Returns a value from 0 to 1 (black to white) corresponding to the intensity of the vignette at that UV coordinate.
 
