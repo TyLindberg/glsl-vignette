@@ -1,0 +1,29 @@
+{
+  "name": "glsl-vignette-pages",
+  "version": "1.0.0",
+  "description": "Github pages site for glsl-vignette",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode=\"production\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Lindberg",
+  "license": "MIT",
+  "devDependencies": {
+    "glslify-loader": "^1.0.2",
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "a-big-triangle": "^1.0.3",
+    "canvas-fit": "^1.5.0",
+    "dat.gui": "^0.7.2",
+    "gl-context": "^0.1.1",
+    "gl-shader": "^4.2.1",
+    "glsl-vignette": "^1.0.0",
+    "glslify": "^6.2.1"
+  }
+}
