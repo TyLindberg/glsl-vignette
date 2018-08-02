@@ -55,9 +55,9 @@ function toy(frag, cb) {
         triangle(gl);
     };
 
-    const update = function() {
+    const update = function(frag) {
         shader.update(vert, frag);
-    }
+    };
 
     window.addEventListener('resize', fitter, false);
 
