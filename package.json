@@ -1,6 +1,6 @@
 {
   "name": "glsl-vignette",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Vignette functions for glslify",
   "main": "simple.glsl",
   "scripts": {
